@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 { 
+    text-align: center; 
+    color:tomato;
+    font-family: 'Redressed', cursive;  
+    font-size: 2.8em; 
+    margin: 0;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none; 
+    text-align: center; 
+    color:tomato;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+.bar {
+    width: 100%; 
+    height: 20px; 
+    background-color: crimson; 
+}
+img {
+    border-radius: 50%; 
+    padding: 5px; 
+    width: 100%; 
+}
+
+.block {
+    margin: 0;
+    padding: 0; 
+    display: inline-block; 
+}
+.picture {
+    width: 25%; 
+    margin: 0; 
+    height: 10%;
+    float: left; 
+    display: inline-block;  
+}
+.summary {
+    float: right; 
+    width: 67%; 
+    height: 10%;
+    vertical-align: top;
+    margin: 20px;
+    padding: 5px; 
+    display: inline-block;
+
+}
+.summary h1 {
+    text-align: left; 
+    font-size: 2.4em; 
+    font-family: 'Redressed', cursive;  
+    color: rgb(58, 58, 58)
+}
+.summary p {
+    font-family: monospace; 
+    color: rgb(85, 85, 85);
+    font-size: 1.7em;
+}
+.education, .activities {
+    background-color: rgb(2, 2, 122); 
+    width: 100%; 
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.education h1, .activities h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.4em; 
+}
+#Whitman:hover {
+    cursor: pointer; 
+}
+.whitman {
+    width: 48%; 
+    float: left; 
+    display: inline-block;
+}
+.education p { 
+    color: white; 
+    text-align: center;
+    font-size: 1.7em;
+    font-family: monospace;
+    margin: 5px;
+    padding: 5px; 
+}
+.whitman ul{
+    display: inline-block;
+    list-style-type: square;
+    list-style-position: outside;
+}
+.whitman li {
+    display: inline-block;
+}
+.education li {
+    text-align: center; 
+    font-size: 1.1em; 
+    color: white;  
+    padding: 4px; 
+    margin: 3px;
+    margin-bottom: 0; 
+}
+#STEM:hover {
+    cursor: pointer; 
+}
+.stem {
+    width: 45%; 
+    float: right; 
+    display: inline-block;
+}
+.stem li {
+    list-style-type: none; 
+}
+.experience {
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+#Experience, #Education, #Activities {
+    text-align: center; 
+    font-size: 50px; 
+    margin: 8px; 
+    padding: 2px; 
+    color: rgb(58, 58, 58);
+
+}
+.container {
+    display: grid; 
+    margin: 0;
+    margin-left: 10px; 
+    margin-right: 10px;
+    padding: 0; 
+    width: 100%; 
+    grid-template-columns: repeat(2, 49%); 
+    grid-template-rows: repeat(2, 510px); 
+    grid-gap: 3px; 
+
+}
+.cell { 
+    color: white; 
+    width: 100%; 
+    height: 100%;
+    text-align: center; 
+    padding: 0; 
+    margin: 0;
+}
+.job_title { 
+    font-size:45px;
+    color:  crimson; 
+}
+.location {
+    color: black; 
+    font-size: 18px;
+    font-family: monospace;
+}
+.job_responsibilities_list {
+    list-style-type: square;
+}
+.job_responsibilities {
+    text-align: left; 
+    margin-left: 10px; 
+    color: rgb(44, 44, 44);
+    font-size: 1.5em; 
+    margin: 5px; 
+    padding: 5px;
+
+}
+.cell-2, .cell-4 {
+    border-left: 3px dashed darkslateblue;
+    margin-left: 4px; 
+}
+.acm, .halal {
+    display: inline-block;
+}
+.break {
+    background-color: gold; 
+    border: 1px solid black; 
+    width: 100%;
+    height: 4px; 
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+
